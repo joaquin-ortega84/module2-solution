@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+  
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 4%;
+    margin-top: 2%;
+}
+
+.chicken-box {
+    width: 25%;
+    box-sizing: border-box;
+    background-color: #999999;
+    border: 1px solid black;
+}
+
+.chicken-sub {
+    float: right;
+    border: 1px solid black;
+    margin-top: 0;
+    padding-left: 0;
+    width: 40%;
+    text-align: center;
+    background-color: #d59898;
+    border: 1px solid black;
+
+}
+
+p {
+    clear: both;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 4%;
+}
+
+
+.beef-box {
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    background-color: #999999;
+    margin-left: 0;
+    margin-right: 0;
+    border: 1px solid black;
+}
+
+
+.beef-sub {
+    float: right;
+    position: relative;
+    top: 0%;
+    right: 0%;
+    border: 1px solid black;
+    margin-top: 0;
+    padding-left: 0;
+    width: 30%;
+    text-align: center;
+    background-color: #c14643;
+    color: white;
+}
+
+.sushi-box {
+    border: 1px solid black;
+    width: 25%;
+    box-sizing: border-box;
+    background-color: #999999;
+}
+
+.sushi-sub {
+    float: right;
+    position: relative;
+    top: 0%;
+    right: 0%;
+    border: 1px solid black;
+    margin-top: 0;
+    padding-left: 0;
+    width: 30%;
+    text-align: center;
+    background-color: #e5d198;
+}
+
+.chicken-box, .beef-box, .sushi-box {
+    float: left;
+}
+
+.chicken-box {
+    margin-left: 10%;
+}
+
+.sushi-box {
+    margin-right: 10%;
+}
+
+.beef-box {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    body {
+        margin: 0;
+        background-color: wheat;
+    } 
+
+    .chicken-box {
+        margin: 0;
+        width: 43%;
+        margin-left: 5%;
+        margin-bottom: 3%;
+        margin-right: 2%;
+    }    
+
+    .beef-box {
+        float: right;
+        width: 43%;
+        margin: 0;
+        margin-right: 5%;
+        margin-bottom: 3%;
+        margin-left: 2%;
+
+    }
+
+    .sushi-box {
+        float: unset;
+        clear: left;
+        margin-top: 2%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 187px;
+    }
+
+    .sushi-box p {
+        padding-top: 3%;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    body {
+        margin: 0;
+        background-color: teal;
+    }
+
+    .chicken-box, .beef-box, .sushi-box {
+        width: 80%;
+        display: block;
+        margin-left: 10%;
+        margin-bottom: 3%;
+        margin-right: 10%;
+    }
+
+
+}
